@@ -1,44 +1,31 @@
 [
     {
-        "name": "Mario Kart DS (EUR)",
-        "digest": "2b15d1d5e6a14be3218327cf22fed61535defd37e0a85aeebad3040b9a68e6f9",
+        "name": "Mario Kart DS (US)",
+        "digest": "d28776e560c0bb32b859f6757652b0810cced737001bfcccac2fceb69f9b3c19",
         "imgFile": "mkds_eur.png",
         "patches": 
         [
             {
-                "name": "Ermii Kart DS Legacy Edition 1.0",
+                "name": "Backwards MKDS v1.1",
+                "fileName": "backwardsv1.1.xdelta",
+                "fileUri": "https://github.com/hyphen-Hoik/RuiningMKDS-series-patchs/releases/download/backwards-v1.1/Backwards.MKDS.v1.1.RMKDSSeries.xdelta",
+                "patchedRomFileName": "Backwards MKDS v1.1.nds"
+            }
+        ]
+    },
+    {
+        "name": "Mario Kart DS (US)",
+        "digest": "d28776e560c0bb32b859f6757652b0810cced737001bfcccac2fceb69f9b3c19",
+        "imgFile": "mkds_eur.png",
+        "patches": 
+        [
+            {
+                "name": "Backwards MKDS v1.1",
                 "fileName": "eur-le.xdelta",
-                "fileUri": "https://github.com/Ermelber/ErmiiKartDS-release/releases/download/v1.0.0-LE/eur-le.xdelta",
-                "patchedRomFileName": "Ermii Kart DS - Legacy Edition (1.0).nds"
-            }
-        ]
-    },
-    {
-        "name": "Ermii Kart DS (b1-r)",
-        "digest": "aea821ada922be0d9c4a3d6a59a2c1ff175220e1f3867b3eaae3d9d91ac337a1",
-        "imgFile": "ekds_b1.png",
-        "patches": 
-        [
-            {
-                "name": "Ermii Kart DS Legacy Edition 1.0",
-                "fileName": "b1r-le.xdelta",
-                "fileUri": "https://github.com/Ermelber/ErmiiKartDS-release/releases/download/v1.0.0-LE/b1r-le.xdelta",
-                "patchedRomFileName": "Ermii Kart DS - Legacy Edition (1.0).nds"
-            }
-        ]
-    },
-    {
-        "name": "Ermii Kart DS (b1-s)",
-        "digest": "c4c9ddf1ee97bcfc699ae4ca9745121286a09942033cdfe7e6ac4057c0b4f2e7",
-        "imgFile": "ekds_b1.png",
-        "patches": 
-        [
-            {
-                "name": "Ermii Kart DS Legacy Edition 1.0",
-                "fileName": "b1s-le.xdelta",
-                "fileUri": "https://github.com/Ermelber/ErmiiKartDS-release/releases/download/v1.0.0-LE/b1s-le.xdelta",
-                "patchedRomFileName": "Ermii Kart DS - Legacy Edition (1.0).nds"
+                "fileUri": "https://github.com/hyphen-Hoik/RuiningMKDS-series-patchs/releases/download/backwards-v1.1/Backwards.MKDS.v1.1.RMKDSSeries.xdelta",
+                "patchedRomFileName": "Backwards MKDS v1.1.nds" 
             }
         ]
     }
+    
 ]
