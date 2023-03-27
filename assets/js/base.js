@@ -4,13 +4,20 @@ let currentRomFile;
 let currentRomDigest;
 let currentRomData;
 
-const CORS_PROXY = "https://api.codetabs.com/v1/proxy?quest=";
+const CORS_PROXY_FREE = "https://api.codetabs.com/v1/proxy?quest=";
+const CORS_PROXY_HAROOHIE = "https://cors.haroohie.club/";
 
 document.addEventListener("DOMContentLoaded", function () {
     fetch("assets/json/romPatches.json")
         .then((response) => response.json())
         .then((data) => romPatches = data);
 });
+
+function getCorsProxyUrl() {
+    if (window.location.host == "ermelber.github.io")
+        return CORS_PROXY_HAROOHIE;
+    return CORS_PROXY_FREE;
+}
 
 function loadRomData() {
     currentRomData = null;
@@ -81,7 +88,7 @@ function getRomDigest() {
 }
 
 function downloadPatch(patch) {
-    let fileUri = CORS_PROXY + encodeURIComponent(patch.fileUri);
+    let fileUri = getCorsProxyUrl() + encodeURIComponent(patch.fileUri);
 
     return fetch(fileUri, {
         headers: {
