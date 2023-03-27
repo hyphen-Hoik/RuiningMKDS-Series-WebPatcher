@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
         .then((data) => romPatches = data);
 });
 
-function getCorsProxyUrl() {
+function getCorsProxyUrl(url) {
     if (window.location.host == "ermelber.github.io")
-        return CORS_PROXY_HAROOHIE;
-    return CORS_PROXY_FREE;
+        return CORS_PROXY_HAROOHIE + url;
+    return CORS_PROXY_FREE + encodeURIComponent(url);
 }
 
 function loadRomData() {
@@ -88,7 +88,7 @@ function getRomDigest() {
 }
 
 function downloadPatch(patch) {
-    let fileUri = getCorsProxyUrl() + encodeURIComponent(patch.fileUri);
+    let fileUri = getCorsProxyUrl(patch.fileUri);
 
     return fetch(fileUri, {
         headers: {
