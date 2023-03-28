@@ -9,8 +9,46 @@
                 "name": "Backwards MKDS v1.1",
                 "fileName": "backwardsv1.1.xdelta",
                 "fileUri": "https://github.com/hyphen-Hoik/RuiningMKDS-series-patchs/releases/download/backwards-v1.1/Backwards.MKDS.v1.1.RMKDSSeries.xdelta",
-                "patchedRomFileName": "Backwards MKDS v1.1.nds"
-            }
+                "patchedRomFileName": "Backwards MKDS v1.1.nds"              
+            },
+            {
+                "name": "Texureless",
+                "fileName": "textureless.xdelta",
+                "fileUri": "https://github.com/hyphen-Hoik/RuiningMKDS-series-patchs/releases/download/textureless/Textureless.xdelta",
+                "patchedRomFileName": "TexturelessMKDS.nds"              
+            },      
+            {
+                "name": "Swag Rock",
+                "fileName": "swagrock.xdelta",
+                "fileUri": "https://github.com/hyphen-Hoik/RuiningMKDS-series-patchs/releases/download/SwagRock-vlike2.1/SwagRock.vlike2.1.sav",
+            },      
+            {
+                "name": "Random Animations",
+                "fileName": "rndanim.xdelta",
+                "fileUri": "https://github.com/hyphen-Hoik/RuiningMKDS-series-patchs/releases/download/Random-Animations/RandomAnimations.RuiningMKDSSeries.xdelta.xdelta",
+                "patchedRomFileName": "RandomAnimations.nds"              
+            },               
+            {
+                "name": "TinyTracks",
+                "fileName": "tinytracks.xdelta",
+                "fileUri": "https://github.com/hyphen-Hoik/RuiningMKDS-series-patchs/releases/download/TinyTracksv0.2/Tiny.Tracks.x0.2.RMKDSseries.xdelta",
+                "patchedRomFileName": "TinyTracksv0.2.nds"
+            }        
+        ] 
+        
+    },
+    {
+        "name": "Mario Kart DS (US)",
+        "digest": "d28776e560c0bb32b859f6757652b0810cced737001bfcccac2fceb69f9b3c19",
+        "imgFile": "mkds_eur.png",
+        "patches": 
+        [
+            {
+                "name": "TinyTracks",
+                "fileName": "tinytracks.xdelta",
+                "fileUri": "https://github.com/hyphen-Hoik/RuiningMKDS-series-patchs/releases/download/TinyTracksv0.2/Tiny.Tracks.x0.2.RMKDSseries.xdelta",
+                "patchedRomFileName": "TinyTracksv0.2.nds"
+            }        
         ]
     },
     {
