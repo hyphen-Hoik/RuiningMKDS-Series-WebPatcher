@@ -21,6 +21,7 @@
                 "name": "Swag Rock",
                 "fileName": "swagrock.xdelta",
                 "fileUri": "https://github.com/hyphen-Hoik/RuiningMKDS-series-patchs/releases/download/SwagRock-vlike2.1/SwagRock.vlike2.1.sav",
+                "patchedRomFileName": "Backwards MKDS v1.1.nds"              
             },      
             {
                 "name": "Random Animations",
